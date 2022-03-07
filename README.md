@@ -17,7 +17,6 @@ The target audience are recruiters and other IT professionals.
 * Git
 * Netlify
 
-
 ### Features and functionality 
 
 Features included are a nav bar, a bandcamp music player, an instagram gallery. A night mode may be included as a bonus feature if time allows.
@@ -26,8 +25,7 @@ Breakpoints to be used will be:
 
 * 320px — 480px for mobile devices, 
 * 481px — 768px for iPads & tablets, 
-* 769px for larger screens, 
-
+* 769px for larger screens,
 
 #### Fundamental Components
 
@@ -39,7 +37,7 @@ Breakpoints to be used will be:
 
 Home\
 	| - About me
-	| - Work & Projects
+	| - Work
     | - Blog
 	| - Contact
 
