@@ -37,10 +37,10 @@ Breakpoints to be used will be:
 
 ### Sitemap
 
-Home \
-    | - Skills
+Home\
 	| - About me
-	| - Creative Work
+	| - Work & Projects
+    | - Blog
 	| - Contact
 
  
