@@ -1,0 +1,36 @@
+/* Imports */
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+
+
+
+/* Pseudo class to set variables */
+:root {
+    /* Color variables */
+    --background-color: #131b23;
+    --highlight-color: #131b23;
+    --text-color: #e9f1f7;
+    /* Font variables */
+    --main-font: 'Cascadia Code', sans-serif;
+    ;
+    --secondary-font: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--main-font);
+}
+
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer img {
+    width: 2rem;
+    height: 2rem;
+    filter: invert(1);
+}
