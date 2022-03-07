@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+    text-align: left;
+}
+
+.text-content {
+    width: 50%;
+}
+
+
+.text-content h1 {
+    margin-left: 0;
+    margin-bottom: 2rem;
+}
+
+.text-content p {
+    margin-bottom: 3rem;
+    margin-right: 4rem;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    margin-top: 7.5rem;
+    width: 50%;
+}
+
+.images img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 1rem;
+    margin: .5rem;
+}

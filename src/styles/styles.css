@@ -1,0 +1,114 @@
+/* Imports */
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+
+/* Pseudo class to set variables */
+:root {
+  /* Color variables */
+  --background-color: #131b23;
+  --highlight-color: #f0c243;
+  --text-color: #e9f1f7;
+  /* Font variables */
+  --main-font: "Cascadia Code", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+}
+
+/* Global */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--main-font);
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+/* Header + Nav */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.nav-bar ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav-btn {
+  background-color: var(--background-color);
+  
+  border: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-family: var(--main-font);
+  position: relative;
+  cursor: pointer;
+}
+.nav-btn a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+.nav-btn:hover::after {
+    content: "";
+    display: block;
+    background-color: var(--highlight-color);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 2rem;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+/* Animation keyframes for pseudoelement on nav bar buttons */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* Contact button */
+.contact-btn {
+  background-color: var(--highlight-color);
+  border-radius: 8px;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 16rem;
+}
+.contact-btn a {
+    font-size: 1.5rem;
+    font-style: bold;
+    font-family: var(--main-font);
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
+/* Footer */
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.footer ul li {
+  margin: 0.5rem;
+}
+
+.footer img {
+  width: 2rem;
+  height: 2rem;
+  filter: invert(1);
+}

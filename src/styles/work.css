@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+    text-align: left;
+}
+
+.text-content {
+    width: 50%;
+
+}
+
+.project-gallery {
+    width: 50%;
+}
+
+.project-gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    margin-top: 7.5rem;
+    list-style-type: none;
+}
+
+
+.project-gallery ul li a img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 1rem;
+    margin: .5rem;
+}
