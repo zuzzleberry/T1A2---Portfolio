@@ -19,7 +19,7 @@ main {
 }
 
 .project-gallery {
-    width: 50%;
+    flex-direction: column;
 }
 .project-gallery ul {
     padding: 0;
@@ -77,7 +77,7 @@ main {
       margin-top: 1rem;
     }
     .text-content p {
-      margin-bottom: 0;
+      margin-bottom: 2rem;
       margin-right: 0;
       margin-left: 1rem;
     }
@@ -92,6 +92,11 @@ main {
     }
     .project-gallery {
         justify-content: flex-start;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .project-gallery ul {
+        margin-top: 0;
     }
 
   }
