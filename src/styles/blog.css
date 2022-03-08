@@ -32,6 +32,30 @@ main {
   padding: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.288);
 }
+.blog-post h2 {
+  margin-top: 1rem;
+}
+.blog-post h3 {
+  font-style: italic;
+  font-size: .9rem;
+}
+.blog-post h3::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.288);
+  margin-top: 1rem;
+}
+.blog-post img {
+  display: block;
+  max-width: max-content;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 2rem;
+  border: solid 1px rgba(247, 247, 247, 0.808);
+}
 
 @media (max-width: 768px) {
   main {
