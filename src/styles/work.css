@@ -8,26 +8,91 @@ main {
 
 .text-content {
     width: 50%;
-
+    margin-top: 2.8rem;
+    
+}
+.text-content h1 {
+    margin-left: 0;
+}
+.text-content p {
+    margin-right: 4rem;
 }
 
 .project-gallery {
     width: 50%;
 }
-
 .project-gallery ul {
+    padding: 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-content: flex-start;
     justify-content: flex-start;
     margin-top: 7.5rem;
     list-style-type: none;
 }
-
-
-.project-gallery ul li a img {
+.project-gallery li {
+    display: flex;
+}
+.project-gallery img {
     width: 7rem;
     height: 7rem;
     border-radius: 1rem;
     margin: .5rem;
 }
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.project-info p {
+    margin: 1rem
+}
+.project-links {
+    display: flex;
+    filter: invert(1);
+}
+.project-links a {
+    margin: 1rem;
+}
+.project-links img {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+@media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      width: 90vw;
+      height: 90vh;
+    }
+    .text-content h1 {
+      margin-left: 1rem;
+      margin-bottom: 2rem;
+      margin-top: 1rem;
+      font-size: 3rem;
+    }
+    .text-content {
+      width: 100%;
+      margin-top: 1rem;
+    }
+    .text-content p {
+      margin-bottom: 0;
+      margin-right: 0;
+      margin-left: 1rem;
+    }
+    .images {
+      width: 100%;
+      justify-content: center;
+      align-content: center;
+      margin-top: 1rem;
+    }
+    .contact-btn {
+        display: none;
+    }
+    .project-gallery {
+        justify-content: flex-start;
+    }
+
+  }
+  
