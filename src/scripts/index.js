@@ -12,11 +12,16 @@ burgerMenuButton.addEventListener("click", () => {
 
 const animatedGradient = document.querySelector(".gradient-anim")
 const contactButton = document.querySelector(".contact-btns")
-contactButton.childNodes.forEach((button) => {
+
+const addGradientEffect = (button) => {
   button.addEventListener("mouseenter", () => {
-    animatedGradient.style.opacity = ".2"   
+    animatedGradient.style.opacity = "1"   
   })
   button.addEventListener("mouseleave", () => {
-    animatedGradient.style.opacity = "1"
+    animatedGradient.style.opacity = "0"
   })
+}
+
+contactButton.childNodes.forEach((button) => {
+  addGradientEffect(button)
 })
