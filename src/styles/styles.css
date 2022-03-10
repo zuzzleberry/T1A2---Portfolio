@@ -115,6 +115,8 @@ header {
   margin: 0;
   transition: width 150ms ease-out;
 }
+
+/* Mobile nav menu */
 .mobile-nav-menu {
   display: none;
   position: absolute;

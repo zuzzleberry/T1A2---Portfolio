@@ -1,6 +1,7 @@
 const burgerMenuButton = document.querySelector(".burger-menu-button")
 const mobileMenu = document.querySelector(".mobile-nav-menu")
 
+// Open mobile menu
 let menuOpen = false
 burgerMenuButton.addEventListener("click", () => {
   console.log("click")
@@ -15,23 +16,20 @@ const contactButton = document.querySelector(".contact-btns")
 
 const addGradientEffect = (button) => {
   button.addEventListener("mouseenter", () => {
-    animatedGradient.style.opacity = "1"   
+    animatedGradient.style.opacity = "1"
   })
   button.addEventListener("mouseleave", () => {
     animatedGradient.style.opacity = "0"
   })
 }
 
-
-
 // Nav underline bar
-
 const navUnderline = document.querySelector(".nav-underline")
 const navButtons = document.querySelectorAll(".nav-btn")
 
 let barPosition = {}
 
-navButtons.forEach(element => {
+navButtons.forEach((element) => {
   element.addEventListener("mouseenter", () => {
     barPosition = element.getBoundingClientRect()
     console.log(barPosition)
@@ -43,5 +41,3 @@ navButtons.forEach(element => {
     navUnderline.style.opacity = 0
   })
 })
-
-
