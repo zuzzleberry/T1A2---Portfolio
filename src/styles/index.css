@@ -1,14 +1,15 @@
 main {
-  display: flex;
   flex-direction: column;
-  margin: auto;
   align-items: center;
   justify-content: center;
-  height: 80vh;
 }
 
 @media screen and (max-width: 768px) {
+  main {
+    justify-content: flex-start;
+    height: 70vh;
+  }
   main h1 {
-    margin-top: 6rem;
+    margin-top: 5rem;
   }
 }

@@ -5,7 +5,7 @@ Source: https://github.com/zuzzleberry/T1A2---Portfolio
 
 This site has been created to showcase my skills and personality as a developer with the intention of being hired. By design, the UX is simple, succinct and easy to navigate on different devices through the use of responsive design. Accessibility is also kept in mind through the use of semantic HTML. CSS animations are used to bring the site alive.
 
-The target audience are recruiters and other IT professionals.
+The target audience is recruiters and other IT professionals.
 
 
 ### Technologies used to build and deploy the site

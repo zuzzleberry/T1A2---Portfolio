@@ -18,41 +18,38 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--main-font);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Main content formatting */
+main {
+  display: flex;
+  margin: auto;
+  max-width: 1200px;
+  height: 80vh;
+  width: 80vw;
 }
 
 h1 {
   font-size: 4rem;
   margin: 1rem;
 }
+
+/* AZ Logo styling */
 .logo {
   z-index: 2;
 }
 .logo:hover {
   animation: wobble 350ms ease-out;
 }
-@keyframes wobble {
-  0% {
-    transform: rotate(0deg);
-  }
-  20% {
-    transform: rotate(8deg);
-  }
-  40% {
-    transform: rotate(-7deg);
-  }
-  60% {
-    transform: rotate(5deg);
-  }
-  80% {
-    transform: rotate(-2deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
+.logo a {
+  text-decoration: none;
+  color: inherit;
 }
-main {
-  max-width: 1200px;
-}
+
+
 
 /* Header + Nav */
 header {
@@ -62,6 +59,7 @@ header {
   margin-bottom: 3rem;
   margin: auto;
   width: 90vw;
+  justify-self: flex-start;
 }
 .nav-bar ul {
   display: flex;
@@ -69,7 +67,6 @@ header {
 }
 .nav-btn {
   background-color: var(--background-color);
-
   border: none;
   padding: 1rem;
   font-size: 1.2rem;
@@ -97,6 +94,8 @@ header {
   animation-timing-function: ease;
   z-index: 3;
 }
+
+/* Mobile button */
 .burger-menu-button {
   display: none;
   background-color: transparent;
@@ -105,6 +104,7 @@ header {
   cursor: pointer;
   z-index: 2;
 }
+/* Mobile button icon */
 .burger-menu-button img {
   width: 2rem;
   margin: 0;
@@ -148,18 +148,7 @@ header {
   text-decoration: none;
 }
 
-/* Animation keyframes for pseudoelement on nav bar buttons */
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
+
 
 /* Contact button */
 .contact-btn {
@@ -200,20 +189,8 @@ header {
 .contact-btn.work-btn {
   background-color: var(--highlight-color2);
 }
-@keyframes swoosh {
-  0% {
-    transform: translateX(1rem);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(15rem);
-    opacity: 0;
-  }
-}
 
+/* Coloured gradient layer */
 .gradient-anim {
   content: "";
   display: block;
@@ -252,11 +229,63 @@ header {
 .footer ul li {
   margin: 0.5rem;
 }
-
 .footer img {
   width: 2rem;
   height: 2rem;
   filter: invert(1);
+}
+.footer-contact-details {
+  text-align: center;
+}
+
+/* Animations */
+@keyframes wobble {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(8deg);
+  }
+  40% {
+    transform: rotate(-7deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Keyframes for button shine */
+@keyframes swoosh {
+  0% {
+    transform: translateX(1rem);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(15rem);
+    opacity: 0;
+  }
+}
+
+/* Keyframes for pseudoelement on navbar buttons */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* Responsive media queries */
@@ -278,7 +307,8 @@ header {
     padding: 1rem;
     width: 10rem;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .contact-btn a {
     font-size: 1.2rem;
@@ -287,6 +317,8 @@ header {
     text-decoration: none;
     color: var(--text-color);
   }
+
+  /* Keyframes for button shine */
   @keyframes swoosh {
     0% {
       transform: translateX(1rem);
@@ -301,3 +333,6 @@ header {
     }
   }
 }
+
+
+
