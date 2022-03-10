@@ -22,6 +22,26 @@ const addGradientEffect = (button) => {
   })
 }
 
-contactButton.childNodes.forEach((button) => {
-  addGradientEffect(button)
+
+
+// Nav underline bar
+
+const navUnderline = document.querySelector(".nav-underline")
+const navButtons = document.querySelectorAll(".nav-btn")
+
+let barPosition = {}
+
+navButtons.forEach(element => {
+  element.addEventListener("mouseenter", () => {
+    barPosition = element.getBoundingClientRect()
+    console.log(barPosition)
+    navUnderline.style.opacity = 1
+    navUnderline.style.left = `${barPosition.x}px`
+    navUnderline.style.width = `${barPosition.width}px`
+  })
+  element.addEventListener("mouseleave", () => {
+    navUnderline.style.opacity = 0
+  })
 })
+
+
