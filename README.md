@@ -17,7 +17,6 @@ The target audience is recruiters and other IT professionals.
 
 ### Features and functionality 
 
-
 * Nav bar with a mobile mode
 * Animated buttons with hover effects
 * Social media icon links (GitHub, LinkedIn, Instagram and Bandcamp)
@@ -25,28 +24,29 @@ The target audience is recruiters and other IT professionals.
 * Blog which scrolls in its own container on the page.
 
 
-
-Breakpoints to be used will be: 
-
-* 320px — 480px for mobile devices, 
-* 481px — 768px for iPads & tablets, 
-* 769px for larger screens,
-
 #### Fundamental Components
 
 * Navigation bar
-* Contact form
-* Blog
+* Mobile menu
+* Contact buttons
+* Footer with contact details and social media buttons
+* Blog feed
+* Project gallery
 
 ### Sitemap
 
-Home\
-	| - About me
-	| - Work
-    | - Blog
-	| - Contact
-
+![Sitemap](/ppt/site-map.png "Site map")
  
 ### Screenshots
 
+![Home](/ppt/dt_home.png "Desktop View - Home")
+![Home](/ppt/mb_home.png "Mobile View - Home")
+![About](/ppt/dt_about.png "Desktop View - About")
+![About](/ppt/mb_about.png "Mobile View - About")
+![Work](/ppt/dt_work.png "Desktop View - Work")
+![Work](/ppt/mb_work.png "Mobile View - Work")
+![Blog](/ppt/dt_blog.png "Desktop View - Blog")
+![Blog](/ppt/mb_blog.png "Mobile View - Blog")
+![Contact](/ppt/dt_contact.png "Desktop View - Contact")
+![Contact](/ppt/mb_contact.png "Mobile View - Contact")
 
