@@ -35,41 +35,41 @@ The target audience is recruiters and other IT professionals.
 
 ### Sitemap
 
-![Sitemap](/ppt/site-map.png "Site map")
+<img src="/docs/site-map.png" width="800"/>
  
 ## Screenshots
 
 #### Home
-<img src="/ppt/dt_home.png" width="800"/>
+<img src="/docs/dt_home.png" width="800"/>
 
 #### About
-<img src="/ppt/dt_about.png" width="800"/>
+<img src="/docs/dt_about.png" width="800"/>
 
 #### Work
-<img src="/ppt/dt_work.png" width="800"/>
+<img src="/docs/dt_work.png" width="800"/>
 
 #### Blog
-<img src="/ppt/dt_blog.png" width="800"/>
+<img src="/docs/dt_blog.png" width="800"/>
 
 #### Contact
-<img src="/ppt/dt_contact.png" width="800"/>
+<img src="/docs/dt_contact.png" width="800"/>
 
 ### Mobile views
 
 #### Home
-<img src="/ppt/mb_home.png" width="200"/>
+<img src="/docs/mb_home.png" width="200"/>
 
 #### About
-<img src="/ppt/mb_about.png" width="200"/>
+<img src="/docs/mb_about.png" width="200"/>
 
 #### Work
-<img src="/ppt/mb_work.png" width="200"/>
+<img src="/docs/mb_work.png" width="200"/>
 
 #### Blog
-<img src="/ppt/mb_blog.png" width="200"/>
+<img src="/docs/mb_blog.png" width="200"/>
 
 #### Contact
-<img src="/ppt/mb_contact.png" width="200"/>
+<img src="/docs/mb_contact.png" width="200"/>
 
 #### Mobile Menu
-<img src="/ppt/mb_menu.png" width="200"/>
+<img src="/docs/mb_menu.png" width="200"/>
