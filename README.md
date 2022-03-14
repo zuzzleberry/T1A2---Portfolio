@@ -39,13 +39,17 @@ The target audience is recruiters and other IT professionals.
  
 ### Screenshots
 
-<img src="/ppt/dt_home.png" alt="Desktop View - Home" width="200"/>
-<img src="/ppt/mb_home.png" alt="Desktop View - Home" width="200"/>
-<img src="/ppt/dt_about.png" alt="Desktop View - Home" width="200"/>
-<img src="/ppt/mb_about.png" alt="Desktop View - Home" width="200"/>
-<img src="/ppt/dt_work.png" alt="Desktop View - Home" width="200"/>
-<img src="/ppt/mb_work.png" alt="Desktop View - Home" width="200"/>
-<img src="/ppt/dt_blog.png" alt="Desktop View - Home" width="200"/>
-<img src="/ppt/mb_blog.png" alt="Desktop View - Home" width="200"/>
-<img src="/ppt/dt_contact.png" alt="Desktop View - Home" width="200"/>
-<img src="/ppt/mb_contact.png" alt="Desktop View - Home" width="200"/>
+<img src="/ppt/dt_home.png" width="400"/>
+<img src="/ppt/dt_about.png" width="400"/>
+<img src="/ppt/dt_work.png" width="400"/>
+<img src="/ppt/dt_blog.png" width="400"/>
+<img src="/ppt/dt_contact.png" width="400"/>
+
+### Mobile views
+
+<img src="/ppt/mb_home.png" width="200"/>
+<img src="/ppt/mb_about.png" width="200"/>
+<img src="/ppt/mb_work.png" width="200"/>
+<img src="/ppt/mb_blog.png" width="200"/>
+<img src="/ppt/mb_contact.png" width="200"/>
+<img src="/ppt/mb_contact.png" width="200"/>
