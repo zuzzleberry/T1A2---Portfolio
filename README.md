@@ -1,4 +1,4 @@
-## Portfolio Website
+# Portfolio Website
 
 Mirror: https://t1a2-portfolio-az.netlify.app/
 Source: https://github.com/zuzzleberry/T1A2---Portfolio
@@ -24,7 +24,7 @@ The target audience is recruiters and other IT professionals.
 * Blog which scrolls in its own container on the page.
 
 
-#### Fundamental Components
+### Fundamental Components
 
 * Navigation bar
 * Mobile menu
@@ -37,19 +37,39 @@ The target audience is recruiters and other IT professionals.
 
 ![Sitemap](/ppt/site-map.png "Site map")
  
-### Screenshots
+## Screenshots
 
-<img src="/ppt/dt_home.png" width="400"/>
-<img src="/ppt/dt_about.png" width="400"/>
-<img src="/ppt/dt_work.png" width="400"/>
-<img src="/ppt/dt_blog.png" width="400"/>
-<img src="/ppt/dt_contact.png" width="400"/>
+#### Home
+<img src="/ppt/dt_home.png" width="800"/>
+
+#### About
+<img src="/ppt/dt_about.png" width="800"/>
+
+#### Work
+<img src="/ppt/dt_work.png" width="800"/>
+
+#### Blog
+<img src="/ppt/dt_blog.png" width="800"/>
+
+#### Contact
+<img src="/ppt/dt_contact.png" width="800"/>
 
 ### Mobile views
 
+#### Home
 <img src="/ppt/mb_home.png" width="200"/>
+
+#### About
 <img src="/ppt/mb_about.png" width="200"/>
+
+#### Work
 <img src="/ppt/mb_work.png" width="200"/>
+
+#### Blog
 <img src="/ppt/mb_blog.png" width="200"/>
+
+#### Contact
 <img src="/ppt/mb_contact.png" width="200"/>
-<img src="/ppt/mb_contact.png" width="200"/>
+
+#### Mobile Menu
+<img src="/ppt/mb_menu.png" width="200"/>
